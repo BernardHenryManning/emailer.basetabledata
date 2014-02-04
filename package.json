@@ -1,0 +1,17 @@
+{
+    "name": "emailer.basetabledata",
+    "title": "HTML Emailer basic table",
+    "description": "Automatically create a basic table line that includes cellpadding='0' cellspacing='0' border='0' by using ctrl + shift + T",
+    "homepage": "https://github.com/Crayonblack/emailer.basetabledata",
+    "version": "0.1",
+    "author": "Crayonblack",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.30.0"
+    },
+    "keywords": [
+        "HTML",
+        "Emailer",
+        "Table"
+    ]
+}
