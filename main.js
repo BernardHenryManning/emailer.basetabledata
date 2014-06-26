@@ -11,11 +11,11 @@ define(function () {
         EditorManager = brackets.getModule("editor/EditorManager"),
         Menus = brackets.getModule("command/Menus");
 
-
     function insertemailTabledata() {
         /* Insert the table line */
         // The Table line
-        var emailTabledata = '<table cellpadding="0" cellspacing="0" border="0">';
+        var emailTabledata = '<table cellpadding="0" cellspacing="0" border="0">'+
+        '<tbody><tr><td></td></tr></tbody></table>';
 
         var editor = EditorManager.getFocusedEditor();
         if (editor) {
@@ -24,7 +24,6 @@ define(function () {
             editor.document.replaceRange(emailTabledata, insertionPos);
         }
     }
-
 
     // Register extension in the File menu
     var EXTENSION_ID = "emailer.basetabledata";
