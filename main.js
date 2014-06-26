@@ -15,7 +15,7 @@ define(function () {
         /* Insert the table line */
         // The Table line
         var emailTabledata = '<table cellpadding="0" cellspacing="0" border="0">'+
-        '<tbody><tr><td></td></tr></tbody></table>';
+        '<tbody>\n<tr>\n<td></td>\n</tr>\n</tbody>\n</table>';
 
         var editor = EditorManager.getFocusedEditor();
         if (editor) {
